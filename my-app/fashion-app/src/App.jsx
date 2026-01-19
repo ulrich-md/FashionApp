@@ -50,7 +50,7 @@ function App() {
               );
             })}
           </nav>
-        </div>
+      </div>
       </header>
 
       {/* Main Content */}
@@ -84,8 +84,8 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 text-center">
           <p className="text-xs text-gray-500 font-display">
             Curate your style, one outfit at a time
-          </p>
-        </div>
+        </p>
+      </div>
       </footer>
     </div>
   );
