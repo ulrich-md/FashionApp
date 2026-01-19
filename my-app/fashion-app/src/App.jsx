@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Clothes, Palette, Sparkles } from 'lucide-react';
+import { Shirt, Palette, Sparkles } from 'lucide-react';
 import DigitalClosetGrid from './components/DigitalClosetGrid';
 import AestheticSelector from './components/AestheticSelector';
 import OutfitGenerator from './components/OutfitGenerator';
@@ -12,7 +12,7 @@ function App() {
   const [activeView, setActiveView] = useState('closet');
 
   const navItems = [
-    { id: 'closet', label: 'Closet', icon: Clothes },
+    { id: 'closet', label: 'Closet', icon: Shirt },
     { id: 'aesthetic', label: 'Aesthetic', icon: Palette },
     { id: 'outfits', label: 'Outfits', icon: Sparkles },
   ];
